@@ -769,7 +769,7 @@ fav.PositionX.ToString()), out int favPositionX);
             toolStripHideMouseCursor.Checked = fav.HideMouseCursor;
             toolStripHideWindowsTaskbar.Checked = fav.HideWindowsTaskbar;
             toolStripRemoveMenus.Checked = fav.RemoveMenus;
-
+            toolStripDelayBorderless.Checked = fav.DelayBorderless;
             toolStripAutomaximize.Enabled = fav.Size == FavoriteSize.FullScreen;
             toolStripAdjustWindowBounds.Enabled = fav.Size == FavoriteSize.FullScreen && !fav.ShouldMaximize;
             toolStripSetSetWindowSize.Enabled = fav.Size != FavoriteSize.FullScreen;
